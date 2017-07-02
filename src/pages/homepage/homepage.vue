@@ -6,7 +6,7 @@
     </div>
     <group title="pages" >
       <cell :title='$t("page1")' :value='$t("page1")' link='page1' is-link></cell>
-      <cell :title='$t("page2")' :value='$t("page2")' link='page2/1?test=2' is-link></cell>
+      <cell :title='$t("page2")' :value='$t("page2")' link='page2' is-link></cell>
     </group>
     <box gap="10px 10px">
       <x-button type="primary" v-if="!userName" action-type="button" @click.native="loginClick">{{$t('login')}}</x-button>
