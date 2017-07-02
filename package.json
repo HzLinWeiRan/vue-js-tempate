@@ -1,8 +1,8 @@
 {
-  "name": "webpack-vue-project",
-  "version": "1.0.0",
-  "description": "A Vue.js project",
-  "author": "",
+  "name": "{{name}}",
+  "version": "{{version}}",
+  "description": "{{description}}",
+  "author": "{{autor}}",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
